@@ -16,8 +16,7 @@ function ContactForm() {
         <label for="messageBox">Enter your message here</label>
         <textarea class="form-control" id="emailInput" rows="5"></textarea>
       </div>
-
-      <Button>Submit your email</Button>
+      <Button className="btn btn-primary">Send me a Message</Button>
     </div>
   );
 }
