@@ -21,7 +21,7 @@ const projects = [
     github: "",
   },
   {
-    name: "Weather Forcast App",
+    name: "PenPals",
     image: "",
     info: "",
     link: "",

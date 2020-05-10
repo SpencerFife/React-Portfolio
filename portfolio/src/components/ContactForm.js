@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 function ContactForm() {
   return (
@@ -15,6 +16,8 @@ function ContactForm() {
         <label for="messageBox">Enter your message here</label>
         <textarea class="form-control" id="emailInput" rows="5"></textarea>
       </div>
+
+      <Button>Submit your email</Button>
     </div>
   );
 }

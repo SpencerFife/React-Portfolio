@@ -25,18 +25,18 @@ function NavTabs() {
         >
           Portfolio
         </Link>
-        <li className="nav-item">
-          <Link
-            to="/contact"
-            className={
-              window.location.pathname === `/contact`
-                ? `nav-link active`
-                : `nav-link`
-            }
-          >
-            Contact
-          </Link>
-        </li>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/contact"
+          className={
+            window.location.pathname === `/contact`
+              ? `nav-link active`
+              : `nav-link`
+          }
+        >
+          Contact
+        </Link>
       </li>
     </ul>
   );
