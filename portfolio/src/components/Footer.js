@@ -1,9 +1,8 @@
 import React from "react";
+import "../styles/Footer.css";
 
-class Footer extends React.Component {
-  render() {
-    return <div classname="footer">{this.props.message}</div>;
-  }
+function Footer() {
+  return <footer className="footer">© 2020</footer>;
 }
 
 export default Footer;

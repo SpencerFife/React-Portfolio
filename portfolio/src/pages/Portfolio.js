@@ -1,8 +1,9 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
 import projects from "../projects";
+import "../styles/Header.css";
+import "../styles/Card.css";
 
 function Portfolio() {
   return (
@@ -25,7 +26,7 @@ function Portfolio() {
                   <p>{project.info}</p>
 
                   <a href={project.link}>Deployed Link</a>
-
+                  <br></br>
                   <a href={project.github}>Git Hub</a>
                 </div>
               </div>
@@ -33,7 +34,6 @@ function Portfolio() {
           ))}
         </div>
       </Wrapper>
-      <Footer message={"© 2020"} />
     </>
   );
 }

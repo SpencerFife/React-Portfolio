@@ -1,7 +1,7 @@
 import React from "react";
 
-function Button() {
-  return <button className="btn btn-warning"></button>;
+function Button(props) {
+  return <button className="btn btn-warning">{props.children}</button>;
 }
 
 export default Button;

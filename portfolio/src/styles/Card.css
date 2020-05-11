@@ -1,0 +1,12 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 4px solid whitesmoke;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

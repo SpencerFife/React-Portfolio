@@ -2,8 +2,9 @@ import React from "react";
 import Wrapper from "../components/Wrapper";
 import Header from "../components/Header";
 import ProfileImage from "../assets/profile image.jpg";
-import Footer from "../components/Footer";
-
+import "../styles/Card.css";
+import "../styles/Header.css";
+import "../styles/About.css";
 function About() {
   return (
     <>
@@ -11,7 +12,7 @@ function About() {
       <Wrapper>
         <h2 className="about">About Me</h2>
 
-        <div className="row">
+        <div className="d-flex flex-row" id="about">
           <div className="col-md-6 center">
             <div className="card">
               <div className="img-container">
@@ -42,7 +43,6 @@ function About() {
           </div>
         </div>
       </Wrapper>
-      <Footer message={"© 2020"} />
     </>
   );
 }
